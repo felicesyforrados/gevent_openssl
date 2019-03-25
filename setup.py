@@ -14,5 +14,5 @@ setup(
     include_package_data=True,
     license='New BSD',
     platforms='any',
-    install_requires=['pyOpenSSL>=0.11', 'gevent'],
+    install_requires=['pyOpenSSL==16.2.0', 'gevent==1.4.0'],
 )
